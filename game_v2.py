@@ -26,7 +26,6 @@ def random_predict(number: int = 1) -> int:
         elif number > predict_number: x = predict_number #задаем левую границу диапазона
         else: y = predict_number
     return count
-    print(f"количество попыток = {count}")
 
 
 def score_game(random_predict) -> int:
